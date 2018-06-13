@@ -15,5 +15,6 @@
 		init-method="init">
 		<property name="zkAddress" value="${zk_address}" />
 		<property name="zkSessionTimeout" value="${zk_session_timeout}" />
+		<property name="zkPort" value="${zk_port}" />
 	</bean>
 </beans>
